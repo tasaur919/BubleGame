@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%; 
+
+}
+.class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(75, 227, 227);
+
+}
+.tk{
+    width:80%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color:white;
+}
+.th{
+    display:flex;
+    width: 100%;
+    padding: 0vw 2vw;
+    height: 12vw;
+    align-items: center;
+  
+    justify-content:space-between;
+    border-radius:1vw;
+    background-color:rgb(11, 39, 11);
+}
+.elem{
+    display: flex;
+    width: 1vw;
+    height: 8vw;
+    padding: 1vw;
+    align-items: center;
+     /*justify-content: center;*/
+    gap: 2vw;
+    border-radius: 1.5vw;
+    margin-right: 15vw;
+    color: white;
+    
+}
+ h2{
+    font-size: 3.5vw;
+    /* margin: 0 20px; */
+}
+.box{
+    color: black;
+   /* justify-content: center;*/
+   font-weight: 2vw;
+   font-size:4vw;
+    align-items: center;
+    padding: 1.5vw;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.btom{
+    display: flex;
+    flex-wrap: wrap;
+   font-weight: 600;
+   
+    gap: 5px;
+    width: 100%;
+    height: calc(100%-80px);
+   
+}
+.Bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+   height: 30px;
+    border-radius: 50%;
+   font-weight: 500;
+    margin: 5px 8px;
+    background-color: green;
+    color: #fff;
+
+}
+.Bubble:hover{
+    background-color: rgb(83, 34, 34);
+    cursor: pointer;
+}
+#center{
+    text-align: center;
+}
